@@ -1,0 +1,10 @@
+
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Liens */
+a {
+  @apply font-medium text-blue-500 no-underline hover:underline;
+}
