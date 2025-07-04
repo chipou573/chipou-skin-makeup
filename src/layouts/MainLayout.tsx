@@ -13,5 +13,6 @@ export default function MainLayout({ children }: MainLayoutProps) {
       <main className="flex-1">{children}</main>
       <Footer />
     </div>
+    
   );
 }
