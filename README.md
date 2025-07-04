@@ -1,69 +1,56 @@
-# React + TypeScript + Vite
+# 💄 Chipou Skin & Maquillage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue dans le projet **Chipou Skin & Maquillage**, une plateforme élégante et interactive dédiée à la beauté de la peau et au maquillage professionnel. Ce projet combine design raffiné, base de données relationnelle solide et composants web modulaires.
 
-Currently, two official plugins are available:
+![Logo Chipou](./src/assets/logo.png) <!-- Remplace par le bon chemin si nécessaire -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Fonctionnalités principales
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🎨 Interface interactive et responsive (Adobe XD + Tailwind CSS)
+- 🧱 Architecture modulaire avec React + TypeScript
+- 🗃️ Base de données relationnelle avec MCD, MLD, MPD
+- ��️ Pages produits, profils utilisateurs, diagnostic personnalisé
+- 📱 Design Web1920 optimisé pour desktop et mobile
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠️ Technologies utilisées
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+| Frontend        | Backend / Données     | Outils & Design        |
+|-----------------|------------------------|------------------------|
+| React + TypeScript | MCD / MLD / MPD (Merise) | Adobe XD              |
+| Tailwind CSS    | PostgreSQL (ou MySQL)  | Git & GitHub           |
+| Vite            |                        | Figma (optionnel)      |
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Lancer le projet en local
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
+# Cloner le dépôt
+git clone https://github.com/chipou573/chipou-skin-maquillage.git
+
+# Accéder au dossier
+cd chipou-skin-maquillage
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
+
+
+structure du projet
+
+chipou-skin-maquillage/
+├── public/
+├── src/
+│   ├── assets/         # Images, logos
+│   ├── components/     # Composants React réutilisables
+│   ├── pages/          # Pages principales (Accueil, Produits, Profil)
+│   ├── styles/         # Fichiers CSS/Tailwind
+│   └── App.tsx         # Point d’entrée principal
+├── README.md
+└── package.json
