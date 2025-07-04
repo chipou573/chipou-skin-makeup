@@ -1,3 +1,4 @@
+
 # 💄 Chipou Skin & Maquillage
 
 Bienvenue dans le projet **Chipou Skin & Maquillage**, une plateforme élégante et interactive dédiée à la beauté de la peau et au maquillage professionnel. Ce projet combine design raffiné, base de données relationnelle solide et composants web modulaires.
@@ -8,21 +9,16 @@ Bienvenue dans le projet **Chipou Skin & Maquillage**, une plateforme élégante
 
 ## ✨ Fonctionnalités principales
 
-- 🎨 Interface interactive et responsive (Adobe XD + Tailwind CSS)
+- 🎨 Interface interactive et responsive ( Tailwind CSS)
 - 🧱 Architecture modulaire avec React + TypeScript
-- 🗃️ Base de données relationnelle avec MCD, MLD, MPD
-- ��️ Pages produits, profils utilisateurs, diagnostic personnalisé
-- 📱 Design Web1920 optimisé pour desktop et mobile
-
----
 
 ## 🛠️ Technologies utilisées
 
-| Frontend        | Backend / Données     | Outils & Design        |
-|-----------------|------------------------|------------------------|
-| React + TypeScript | MCD / MLD / MPD (Merise) | Adobe XD              |
-| Tailwind CSS    | PostgreSQL (ou MySQL)  | Git & GitHub           |
-| Vite            |                        | Figma (optionnel)      |
+| Technologie       | Description                                      |
+|-------------------|--------------------------------------------------|
+| React + TypeScript | Framework JavaScript moderne et typé            |
+| Tailwind CSS       | Framework CSS utilitaire pour un design responsive |
+| Vite               | Outil de build ultra-rapide pour projets modernes |
 
 ---
 
