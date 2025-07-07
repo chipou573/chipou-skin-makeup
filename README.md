@@ -49,10 +49,14 @@ chipou-skin-maquillage/
 │   ├── styles/         # Fichiers CSS/Tailwind
 │   └── App.tsx         # Point d’entrée principal
 ├── README.md
-└── package.json
-## 📸 Aperçu de la maquette
+└── package.json 
+## 📸 Aperçus de la maquette
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/chipou573/chipou-skin-makeup/main/src/assets/screenshot-homepage.png" alt="Aperçu de la maquette Chipou" width="800"/>
-</p>
+### 🖥️ Page d’accueil
+
+![Page d’accueil](https://raw.githubusercontent.com/chipou573/chipou-skin-makeup/main/src/assets/screenshot-homepage.png)
+
+### 💄 Page produits
+
+![Page produits](https://raw.githubusercontent.com/chipou573/chipou-skin-makeup/main/src/assets/screenshot-produits.png)
 
