@@ -8,7 +8,7 @@ export default function Footer() {
           {/* Logo + Nom */}
           <div className="flex items-center gap-3 mb-2">
             <img
-              src="src/assets/logo.jpeg"
+              src="src/assets/logo.png"
               alt="Logo Chipou"
               className="h-10 w-10 rounded-full object-cover"
             />

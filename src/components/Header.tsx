@@ -10,7 +10,7 @@ function Header() {
         {/* Logo + texte collés au bord gauche */}
         <div className="flex items-center gap-3">
           <img
-            src="src/assets/logo.jpeg"
+            src="src/assets/logo.png"
             alt="Logo Chipou"
             className="h-10 w-10 rounded-full object-cover"
           />
